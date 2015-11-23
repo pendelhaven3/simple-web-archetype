@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<archetype-descriptor name="simple">
+	<fileSets>
+		<fileSet>
+			<directory>src/main/java</directory>
+		</fileSet>
+		<fileSet>
+			<directory>src/main/resources</directory>
+		</fileSet>
+		<fileSet>
+			<directory>src/test/java</directory>
+		</fileSet>
+		<fileSet>
+			<directory>src/test/resources</directory>
+		</fileSet>
+		<fileSet>
+			<directory>src/main/webapp/WEB-INF</directory>
+			<includes>
+				<include>web.xml</include>
+			</includes>
+		</fileSet>
+		<fileSet>
+			<directory>src/main/webapp</directory>
+			<includes>
+				<include>index.jsp</include>
+			</includes>
+		</fileSet>
+	</fileSets>
+</archetype-descriptor>
